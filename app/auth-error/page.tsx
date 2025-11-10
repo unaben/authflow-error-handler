@@ -47,7 +47,11 @@ function AuthErrorContent() {
         </div>
 
         <div className={styles.actions}>
-          <AuthErrorCTA setIsOpen={setIsOpen} returnUrl={returnUrl} />
+          <AuthErrorCTA
+            setIsOpen={setIsOpen}
+            returnUrl={returnUrl}
+            status={status}
+          />
         </div>
       </div>
     </div>

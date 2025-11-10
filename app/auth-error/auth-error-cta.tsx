@@ -5,7 +5,7 @@ import type { AuthErrorCTAProps } from "./auth-error.types";
 import { handleClose, handleRetry } from "./auth-error.utils";
 
 const AuthErrorCTA = (props: AuthErrorCTAProps) => {
-  const { returnUrl, setIsOpen } = props;
+  const { returnUrl, setIsOpen, status } = props;
   const router = useRouter();
   return (
     <>

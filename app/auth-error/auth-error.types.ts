@@ -8,4 +8,5 @@ export type AuthErrorIconProps = {
 export type AuthErrorCTAProps = {
   setIsOpen: Dispatch<SetStateAction<boolean>>;
   returnUrl: string;
+  status: string
 };
